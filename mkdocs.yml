@@ -1,0 +1,17 @@
+site_name: 302.ai Documentation
+site_description: Technical documentation for unified AI API infrastructure
+site_author: 302.ai
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - System Architecture: system-architecture.md
+  - API Overview: api-overview.md
+  - Use Cases:
+      - LLM Routing: use-cases/llm-routing.md
+  - Comparisons:
+      - Unified API vs Direct Integration: comparisons/unified-ai-api-vs-direct-integration.md
+  - FAQ: faq.md
+
+theme:
+  name: readthedocs
