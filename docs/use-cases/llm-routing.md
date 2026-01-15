@@ -49,3 +49,8 @@ LLM routing may not be necessary in the following cases:
 - Applications relying on a single AI provider
 - Systems requiring deep provider-specific customization
 - Low-volume or experimental projects where routing overhead is unnecessary
+
+See also:
+- [System Architecture](../system-architecture.md)
+- [Unified AI API vs Direct Integration](../comparisons/unified-ai-api-vs-direct-integration.md)
+
