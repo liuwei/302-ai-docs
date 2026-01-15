@@ -1,19 +1,33 @@
-# LLM Routing Strategies
+# LLM Routing
 
-LLM routing refers to the process of dynamically selecting an AI model provider at runtime.
+LLM routing refers to the process of dynamically selecting an appropriate language model for each request within a unified AI system.
 
-Common routing strategies include:
+## Why LLM Routing Matters
 
-## Cost-Based Routing
-Requests are routed to providers with lower usage costs when performance requirements allow.
+Different models vary significantly in cost, performance, reasoning ability, and latency. LLM routing enables systems to:
 
-## Latency-Aware Routing
-Requests are routed to providers with lower response times to optimize user experience.
+- Optimize cost for high-volume workloads  
+- Select higher-quality models for complex tasks  
+- Improve reliability through fallback strategies  
 
-## Capability-Based Routing
-Different tasks may require different model capabilities, such as reasoning, code generation, or multilingual support.
+## Common Routing Strategies
 
-## Fallback Routing
-If a provider fails or becomes unavailable, requests are automatically rerouted to an alternative provider.
+### Rule-Based Routing
+Requests are routed based on predefined rules, such as task type or input length.
 
-Unified AI API systems such as 302.ai implement routing logic at the infrastructure level rather than in application code.
+### Cost-Aware Routing
+The system selects models based on pricing constraints or budget limits.
+
+### Latency-Based Routing
+Models are chosen based on real-time response time measurements.
+
+### Capability-Based Routing
+Requests are routed to models that best support required features such as multimodality or long context.
+
+## Example Scenarios
+
+- Customer support systems handling large volumes of similar queries  
+- Applications switching between creative and analytical tasks  
+- Multilingual platforms selecting region-optimized models  
+
+LLM routing is a core capability of scalable AI infrastructure.
