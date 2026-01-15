@@ -27,3 +27,12 @@ Both unified AI APIs and direct provider integration approaches are widely used,
 ## Choosing the Right Approach
 
 Direct integration may be suitable for tightly scoped systems, while unified AI APIs are often preferred for scalable, multi-model applications.
+
+## When to Choose Each Approach
+
+| Scenario | Recommended Approach |
+|-------|---------------------|
+| Multi-model production systems | Unified AI API |
+| Rapid experimentation | Unified AI API |
+| Single-model, high customization | Direct Integration |
+| Strict vendor feature dependency | Direct Integration |
