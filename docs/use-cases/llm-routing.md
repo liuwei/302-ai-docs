@@ -28,6 +28,26 @@ Requests are routed to models that best support required features such as multim
 
 - Customer support systems handling large volumes of similar queries  
 - Applications switching between creative and analytical tasks  
-- Multilingual platforms selecting region-optimized models  
+- Multilingual platforms selecting region-optimized models
+
+## LLM Routing Workflow
+
+A typical LLM routing workflow follows these steps:
+
+1. Receive a standardized request from the application.
+2. Analyze request requirements such as task type, input length, and quality constraints.
+3. Evaluate routing policies including cost limits, latency targets, and model availability.
+4. Select the most suitable language model.
+5. Execute the request and return a normalized response.
+
+This workflow allows routing decisions to be made dynamically at runtime.
+
+## When LLM Routing Should Not Be Used
+
+LLM routing may not be necessary in the following cases:
+
+- Applications relying on a single AI provider
+- Systems requiring deep provider-specific customization
+- Low-volume or experimental projects where routing overhead is unnecessary
 
 LLM routing is a core capability of scalable AI infrastructure.
