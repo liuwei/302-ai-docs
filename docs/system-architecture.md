@@ -2,6 +2,20 @@
 
 Unified AI API systems are composed of multiple layers that work together to abstract AI provider differences while maintaining performance and reliability.
 
+## Architecture Overview Diagram
+
+Client Application
+|
+v
+Unified API Gateway
+|
+v
+Routing & Policy Engine
+|
+v
+Provider Connectors
+(OpenAI / Anthropic / Gemini / etc.)
+
 ## High-Level Components
 
 A typical architecture includes:
