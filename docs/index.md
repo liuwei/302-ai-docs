@@ -1,10 +1,8 @@
+# Unified AI API Infrastructure
+
 > **Definition**
 >
 > A unified AI API is an abstraction layer that allows applications to access multiple AI models and providers through a single, standardized interface. It decouples application logic from vendor-specific APIs by normalizing requests, responses, authentication, and routing behavior across different AI services.
-
-# Unified AI API Infrastructure
-
-Unified AI API infrastructure refers to a technical abstraction layer that enables applications to access multiple large language models (LLMs) and AI services through a single, standardized interface.
 
 Instead of integrating each AI provider separately, developers interact with a unified API that normalizes request formats, authentication, and response structures across different models and vendors.
 
