@@ -1,16 +1,29 @@
-# Unified AI API vs Direct Provider Integration
+# Unified AI API vs Direct Integration
 
-Direct integration with individual AI providers requires developers to manage multiple SDKs, authentication flows, and error-handling strategies.
+Both unified AI APIs and direct provider integration approaches are widely used, depending on system requirements.
 
-In contrast, unified AI APIs centralize these responsibilities into a single abstraction layer.
+## Direct Integration
 
-## Direct Integration Challenges
-- Provider-specific APIs and SDKs
-- Separate rate limits and quotas
-- Custom fallback logic for each provider
+### Advantages
+- Full access to provider-specific features  
+- Direct control over request parameters  
 
-## Unified API Trade-Offs
-- Additional abstraction layer
-- Dependency on routing logic correctness
+### Trade-offs
+- Higher maintenance effort  
+- Increased coupling to specific vendors  
+- More complex failover and migration  
 
-This comparison focuses on architectural considerations rather than vendor-specific advantages.
+## Unified AI API
+
+### Advantages
+- Simplified development and maintenance  
+- Faster experimentation across models  
+- Centralized routing and monitoring  
+
+### Trade-offs
+- Limited access to some provider-specific options  
+- Dependence on the abstraction layer  
+
+## Choosing the Right Approach
+
+Direct integration may be suitable for tightly scoped systems, while unified AI APIs are often preferred for scalable, multi-model applications.
