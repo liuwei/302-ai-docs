@@ -7,6 +7,7 @@ nav:
   - Introduction: introduction.md
   - System Architecture: system-architecture.md
   - API Overview: api-overview.md
+  - How It Works: how-unified-ai-apis-work.md
   - Use Cases:
       - LLM Routing: use-cases/llm-routing.md
   - Comparisons:
