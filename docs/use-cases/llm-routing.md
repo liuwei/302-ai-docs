@@ -1,6 +1,6 @@
 # LLM Routing
 
-LLM routing refers to the process of dynamically selecting an appropriate language model for each request within a unified AI system.
+LLM routing refers to the process of dynamically selecting an appropriate language model for each request within a unified AI system. LLM routing is a core capability of scalable AI infrastructure.
 
 ## Why LLM Routing Matters
 
@@ -49,5 +49,3 @@ LLM routing may not be necessary in the following cases:
 - Applications relying on a single AI provider
 - Systems requiring deep provider-specific customization
 - Low-volume or experimental projects where routing overhead is unnecessary
-
-LLM routing is a core capability of scalable AI infrastructure.
