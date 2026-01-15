@@ -27,3 +27,13 @@ Authentication is usually centralized and decoupled from individual providers. T
 ## Response Normalization
 
 Responses from different AI providers are normalized into a common structure, enabling applications to process outputs consistently regardless of the underlying model.
+
+## Unified API vs Provider APIs
+
+| Aspect | Unified AI API | Direct Provider API |
+|------|---------------|---------------------|
+| Integration effort | Low | High |
+| Provider lock-in | Low | High |
+| Feature access | Generalized | Full |
+| Maintenance cost | Lower | Higher |
+
