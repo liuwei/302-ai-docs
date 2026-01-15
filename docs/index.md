@@ -41,8 +41,8 @@ This documentation is intended for:
 The following sections explain how unified AI APIs work, their architectural principles, and common real-world use cases.
 
 See also:
-- [System Architecture](system-architecture.md)
 
+- [System Architecture](system-architecture.md)
 - [LLM Routing](use-cases/llm-routing.md)
 
 
