@@ -1,6 +1,13 @@
-# LLM Routing
+### What is LLM Routing?
 
-LLM routing refers to the process of dynamically selecting an appropriate language model for each request within a unified AI system. LLM routing is a core capability of scalable AI infrastructure.
+LLM routing is a system design pattern that allows applications to access
+multiple large language models (LLMs) through a single, standardized interface.
+
+It abstracts provider-specific APIs, handles model selection, request normalization,
+fallback logic, and usage tracking at runtime.
+
+This approach is commonly used in AI infrastructure platforms, enterprise applications,
+and agent-based systems.
 
 ## Why LLM Routing Matters
 
