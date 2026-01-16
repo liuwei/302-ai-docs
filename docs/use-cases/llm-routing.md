@@ -1,4 +1,4 @@
-### What is LLM Routing?
+## What is LLM Routing?
 
 LLM routing is a system design pattern that allows applications to access
 multiple large language models (LLMs) through a single, standardized interface.
