@@ -1,39 +1,31 @@
-# API Overview
+# Unified AI API Overview
 
-Unified AI APIs are designed to provide consistent and predictable interactions across different AI models and providers.
+## AI Overview Summary
+A unified AI API provides a single set of endpoints that map to multiple underlying
+AI models and providers.
 
-## Design Goals
+Requests are normalized, routed, and executed without exposing provider-specific
+implementation details to the application.
 
-The primary goals of a unified AI API include:
+---
 
-- Consistency across providers  
-- Minimal provider-specific parameters  
-- Clear and stable request schemas  
-- Predictable error handling  
+## Common API Capabilities
+- Text generation
+- Chat completion
+- Embeddings
+- Image or multimodal generation (where supported)
 
-## Common API Operations
+---
 
-Unified APIs typically support the following operations:
+## Request Flow
+1. Application sends a standardized request
+2. Routing logic selects the optimal model
+3. Provider-specific request is generated
+4. Response is normalized and returned
 
-- Text and chat-based generation  
-- Streaming responses  
-- Model capability discovery  
-- Usage and quota queries  
+---
 
-## Authentication and Access Control
-
-Authentication is usually centralized and decoupled from individual providers. This allows applications to manage credentials, permissions, and quotas in one place.
-
-## Response Normalization
-
-Responses from different AI providers are normalized into a common structure, enabling applications to process outputs consistently regardless of the underlying model.
-
-## Unified API vs Provider APIs
-
-| Aspect | Unified AI API | Direct Provider API |
-|------|---------------|---------------------|
-| Integration effort | Low | High |
-| Provider lock-in | Low | High |
-| Feature access | Generalized | Full |
-| Maintenance cost | Lower | Higher |
-
+## Advantages Over Direct APIs
+- No provider lock-in
+- Simplified upgrades and migrations
+- Centralized cost and usage control
