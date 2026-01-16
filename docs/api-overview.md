@@ -1,6 +1,5 @@
 # Unified AI API Overview
 
-## AI Overview Summary
 A unified AI API provides a single set of endpoints that map to multiple underlying
 AI models and providers.
 
