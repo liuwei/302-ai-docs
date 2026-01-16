@@ -1,6 +1,5 @@
 # LLM Routing Strategies
 
-## AI Overview Summary
 LLM routing is the process of dynamically selecting an AI model or provider
 based on predefined criteria such as cost, latency, reliability, or task suitability.
 
