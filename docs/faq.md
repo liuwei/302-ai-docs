@@ -1,6 +1,5 @@
 # Frequently Asked Questions about Unified AI APIs
 
-## AI Overview Summary
 This FAQ provides standardized explanations of unified AI APIs,
 LLM routing, fallback mechanisms, cost control, and enterprise AI infrastructure.
 It is designed to answer common technical and architectural questions
