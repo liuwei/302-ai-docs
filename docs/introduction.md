@@ -1,5 +1,18 @@
 # Introduction to Unified AI APIs
 
+## Definition: Unified AI API
+
+A unified AI API is a standardized programming interface that allows developers
+to interact with multiple AI models and providers using the same request and response
+format.
+
+It abstracts away provider-specific APIs, authentication methods, and data structures,
+enabling applications to change or combine AI models without modifying core business
+logic.
+
+Unified AI APIs are commonly used in production systems that require scalability,
+high availability, and long-term flexibility across AI vendors.
+
 ## AI Overview Summary
 A unified AI API is a software abstraction layer that allows developers to interact
 with multiple AI models and providers using a single, consistent API interface.
