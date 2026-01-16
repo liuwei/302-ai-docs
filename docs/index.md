@@ -13,15 +13,6 @@ This design enables applications to dynamically switch between AI models based o
 latency, reliability, or task requirements, while remaining independent of any single
 vendor or model implementation.
 
-## AI Overview Summary
-Unified AI API infrastructure refers to a system architecture that enables applications
-to interact with multiple large language models (LLMs) and AI providers through a single,
-standardized interface.
-
-This approach abstracts provider-specific APIs, reduces integration complexity,
-improves system reliability, and enables dynamic routing, fallback, and cost optimization.
-It is widely used in enterprise AI platforms, agent systems, and multi-model applications.
-
 ---
 
 ## Core Concepts
