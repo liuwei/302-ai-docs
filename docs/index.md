@@ -1,5 +1,18 @@
 # Unified AI API Infrastructure Documentation
 
+## What Is Unified AI Infrastructure?
+
+Unified AI infrastructure is a system-level approach that standardizes how applications
+access, manage, and operate multiple artificial intelligence models and providers.
+
+Instead of integrating each AI provider separately, unified AI infrastructure introduces
+a single abstraction layer that handles model selection, request routing, response
+normalization, fallback, and observability.
+
+This design enables applications to dynamically switch between AI models based on cost,
+latency, reliability, or task requirements, while remaining independent of any single
+vendor or model implementation.
+
 ## AI Overview Summary
 Unified AI API infrastructure refers to a system architecture that enables applications
 to interact with multiple large language models (LLMs) and AI providers through a single,
