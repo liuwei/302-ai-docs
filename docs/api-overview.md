@@ -29,3 +29,10 @@ implementation details to the application.
 - No provider lock-in
 - Simplified upgrades and migrations
 - Centralized cost and usage control
+
+---
+
+## Unified API Design Principles
+Unified APIs aim for consistency, predictability, minimal provider-specific parameters,
+and clear error handling to facilitate multi-provider integration.
+
