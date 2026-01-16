@@ -7,6 +7,16 @@ It is a core capability of unified AI infrastructure.
 
 ---
 
+## Core Concept: LLM Routing
+
+LLM routing is the process of dynamically selecting an AI model or provider
+at runtime based on criteria such as cost, latency, reliability,
+or task-specific requirements.
+
+It enables multi-model optimization without changing application logic.
+
+---
+
 ## Common Routing Strategies
 
 ### Cost-Based Routing
