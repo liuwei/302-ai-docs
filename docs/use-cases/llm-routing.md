@@ -28,6 +28,13 @@ It is a core capability of unified AI infrastructure.
 Routing improves system resilience, reduces operational cost,
 and enables multi-model optimization in production environments.
 
+---
+
+## When to Use LLM Routing
+- Multi-provider systems
+- Cost-sensitive workflows
+- Reliability-critical workloads
+
 See also:
 - [System Architecture](../system-architecture.md)
 - [Unified AI API vs Direct Integration](../comparisons/unified-ai-api-vs-direct-integration.md)
