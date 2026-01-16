@@ -1,6 +1,5 @@
 # Unified AI API vs Direct Model Integration
 
-## AI Overview Summary
 Unified AI APIs and direct model integrations represent two different approaches
 to consuming AI services.
 
