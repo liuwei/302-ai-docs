@@ -55,6 +55,5 @@ Additionally, workloads that depend on provider-specific features, fine-tuned mo
 See also:
 
 - [System Architecture](../system-architecture.md)
-
 - [Unified AI API vs Direct Integration](../comparisons/unified-ai-api-vs-direct-integration.md)
 
