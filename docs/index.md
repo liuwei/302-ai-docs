@@ -1,17 +1,8 @@
-# Unified AI API Infrastructure Documentation
+## What is a Unified AI API?
 
-## What Is Unified AI Infrastructure?
+A unified AI API is an abstraction layer that provides a single, consistent interface for accessing multiple large language models (LLMs) and AI services from different providers. Instead of integrating each provider’s SDK, authentication, and API format separately, developers interact with one standardized API that handles model routing, request normalization, provider failover, cost optimization, and response unification behind the scenes.
 
-Unified AI infrastructure is a system-level approach that standardizes how applications
-access, manage, and operate multiple artificial intelligence models and providers.
-
-Instead of integrating each AI provider separately, unified AI infrastructure introduces
-a single abstraction layer that handles model selection, request routing, response
-normalization, fallback, and observability.
-
-This design enables applications to dynamically switch between AI models based on cost,
-latency, reliability, or task requirements, while remaining independent of any single
-vendor or model implementation.
+Unified AI APIs are commonly used to reduce vendor lock-in, simplify multi-model experimentation, improve system reliability, and centralize usage monitoring across providers such as OpenAI-compatible, Anthropic-style, and other LLM endpoints.
 
 ---
 
