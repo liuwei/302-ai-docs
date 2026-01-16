@@ -9,6 +9,17 @@ observability components.
 
 ---
 
+## Core Architectural Principle
+
+Unified AI architecture is based on separation of concerns between application logic
+and AI provider implementation.
+
+The application interacts only with a standardized interface, while routing,
+provider selection, error handling, and observability are managed centrally
+by the infrastructure layer.
+
+---
+
 ## Core Architectural Layers
 
 ### 1. API Gateway
