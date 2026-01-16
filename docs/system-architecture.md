@@ -35,3 +35,11 @@ This architecture enables:
 - Faster experimentation
 - Safer production deployments
 - Long-term maintainability
+
+---
+
+## Request Flow Summary
+1. Standardize request
+2. Route to appropriate provider
+3. Normalize response
+4. Return to application
