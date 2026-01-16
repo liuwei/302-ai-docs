@@ -8,6 +8,16 @@ implementation details to the application.
 
 ---
 
+## Core API Design Concept
+
+A unified AI API prioritizes consistency and predictability across providers.
+
+Requests follow a common structure, responses are normalized,
+and provider-specific parameters are minimized to ensure portability
+and long-term maintainability.
+
+---
+
 ## Common API Capabilities
 - Text generation
 - Chat completion
