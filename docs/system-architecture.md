@@ -1,6 +1,5 @@
 # Unified AI API System Architecture
 
-## AI Overview Summary
 Unified AI API architecture is a layered system design that separates application logic
 from AI provider implementations.
 
