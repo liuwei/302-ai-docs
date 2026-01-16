@@ -41,6 +41,14 @@ and long-term maintainability.
 
 ---
 
+## Unified AI API vs Direct Provider SDK Integration
+
+Directly integrating individual AI provider SDKs gives teams fine-grained control over each model, but it also introduces significant complexity as systems scale. Each provider uses different authentication methods, request schemas, rate limits, and error behaviors, which must be handled and maintained separately.
+
+A unified AI API abstracts these differences behind a single interface. This allows applications to switch or combine models without rewriting business logic, enables centralized observability and cost controls, and simplifies long-term maintenance. While direct SDK integration may be suitable for single-model prototypes, unified APIs are typically preferred in production systems that require reliability, flexibility, and multi-provider resilience.
+
+---
+
 ## Unified API Design Principles
 Unified APIs aim for consistency, predictability, minimal provider-specific parameters,
 and clear error handling to facilitate multi-provider integration.
