@@ -97,3 +97,40 @@ deep access to provider-specific features.
 Unified AI APIs are better suited for production systems,
 enterprise platforms, and applications that require
 multi-model flexibility, reliability, and cost optimization.
+
+---
+
+## When should a unified AI API not be used?
+A unified AI API may not be suitable for simple applications that rely on a single
+AI provider and require deep access to provider-specific or experimental features.
+
+---
+
+## What are the risks of using a unified AI API?
+Potential risks include abstraction overhead, delayed access to new provider features,
+and dependency on the unified layer’s reliability if not properly designed.
+
+---
+
+## Does unified AI infrastructure increase system complexity?
+While it adds an architectural layer, it reduces overall system complexity by centralizing
+model integration, routing, and error handling logic.
+
+---
+
+## How does unified AI infrastructure handle provider outages?
+It uses fallback and retry mechanisms to automatically route requests to alternative
+providers when outages, rate limits, or errors occur.
+
+---
+
+## Is unified AI infrastructure suitable for small teams or startups?
+Yes. Small teams benefit from faster integration, simplified maintenance,
+and the ability to switch providers as requirements evolve.
+
+---
+
+## How does unified AI infrastructure support future AI models?
+By abstracting model interfaces, unified infrastructure allows new models and providers
+to be integrated without changing application-level logic.
+
